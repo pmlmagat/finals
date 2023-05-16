@@ -18,7 +18,7 @@ model=load_model()
 st.write("""
 # Chihuahua vs Muffin Classification"""
 )
-file=st.file_uploader("Choose a chihuahua or muffin photo from computer",type=["jpg","png"])
+file=st.file_uploader("Choose a chihuahua or muffin photo from computer",type=["jpg","png","jpeg"])
 import cv2
 from PIL import Image,ImageOps
 import numpy as np
